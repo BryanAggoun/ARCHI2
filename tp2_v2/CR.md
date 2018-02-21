@@ -78,4 +78,5 @@ Question E5 :
 D'après le fichier "sys.bin.txt" :
   * Longueur effective du segment seg_reset : 40 octets (0xBFC00000 à OxBFC00024 =>36 octets).
   * Longueur effective du segment seg_kcode : 8741 octets "?????" (0x80000000 à 0x80002224).
-
+ 
+ test
