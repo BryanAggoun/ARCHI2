@@ -1,5 +1,4 @@
 # Notes pour le CR du TP2 de ARCHI2 :
-===================================
 
 Question C2 :
 ---------------
