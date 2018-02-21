@@ -1,7 +1,6 @@
 # Notes pour le CR du TP2 de ARCHI2 :
 
-Question C2 :
----------------
+_Question C2_ :
 
 Le segment seg_reset est assigné au composant ROM contrairement aux autres segments qui sont quand à eux assigné au composant RAM (sauf le segment TTY). En effet, le segment_reset contient le code de boot et doit donc être assigné à la ROM qui est la mémoire devant contenir le premier code exécuté au démarrage de la machine.
 
