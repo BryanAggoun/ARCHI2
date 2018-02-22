@@ -10,10 +10,10 @@ Informations sur les caractéristiques du Icache, Dcache et tampon d'écritures 
   - Profondeur pour le tampon => 32 octets
 
 ```c
-    size_t  icache_ways       = 0;  // instruction cache number of ways
+    size_t  icache_ways       = 1;  // instruction cache number of ways
     size_t  icache_sets       = 64; // instruction cache number of sets
     size_t  icache_words      = 4;  // instruction cache number of words per line
-    size_t  dcache_ways       = 0;  // data cache number of ways
+    size_t  dcache_ways       = 1;  // data cache number of ways
     size_t  dcache_sets       = 64; // data cache number of sets
     size_t  dcache_words      = 4;  // data cache number of words per line
     size_t  wbuf_depth        = 8;  // write buffer depth
@@ -58,7 +58,7 @@ Les segments de cette architecture étant accessible seulement en mode supervise
 #define SEG_STACK_SIZE  16384
 
 #define SEG_TTY_BASE    0x90000000
-#define SEG_TTY_SIZE    16384
+#define SEG_TTY_SIZE    16
 ```
 ## Système d'exploitation : GIET
 
