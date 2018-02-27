@@ -42,7 +42,7 @@ Valeur de ces champs pour la première adresse du programme  :
 __Question D2 :__
 
 	|  TAG   | V | WORD3 | WORD2 | WORD1 | WORD0 |
-	|--------|---|-------|:-----:|:-----:|:-----:|
+	|--------|:-:|:-----:|:-----:|:-----:|------:|
 	| 0x0040 | 1 | addi  | addi  | lw    | lw    |
 	| 0x0040 | 1 |       | sw    | bne   | add   |
 
