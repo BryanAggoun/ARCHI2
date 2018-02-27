@@ -34,15 +34,16 @@ __Question D1 :__
 
 Valeur de ces champs pour la première adresse du programme  :
 
-	|-------|----------------:|
-	| BYTE	| 0b0000 	  |	
-	| SET	| 0b000 	  |
-	| TAG	| 0x004000 & 0b0  |  
+|	|		  |
+|-------|----------------:|
+| BYTE	| 0b0000 	  |	
+| SET	| 0b000 	  |
+| TAG	| 0x004000 & 0b0  |  
 
 __Question D2 :__
 
-	|  TAG   | V | WORD3 | WORD2 | WORD1 | WORD0 |
-	|--------|:-:|:-----:|:-----:|:-----:|------:|
-	| 0x0040 | 1 | addi  | addi  | lw    | lw    |
-	| 0x0040 | 1 |       | sw    | bne   | add   |
+|  TAG   | V | WORD3 | WORD2 | WORD1 | WORD0 |
+|--------|:-:|:-----:|:-----:|:-----:|------:|
+| 0x0040 | 1 | addi  | addi  | lw    | lw    |
+| 0x0040 | 1 |       | sw    | bne   | add   |
 
