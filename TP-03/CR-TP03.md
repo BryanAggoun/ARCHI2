@@ -34,10 +34,9 @@ __Question D1 :__
 
 Valeur de ces champs pour la première adresse du programme  :
 
-|-------|----------------:|
-| BYTE	| 0b0000 	  |	
-| SET	| 0b000 	  |
-| TAG	| 0x004000 & 0b0  |  
+	* BYTE	0b0000
+	* SET	0b000
+	* TAG	0x004000 & 0b0
 
 __Question D2 :__
 
@@ -57,19 +56,19 @@ L'état *MISS_SELECT* est indispensable les caches de type set assiociatif (et f
 
 __Question D5 :__
 
-| A | IMISS and IUNC		   	|
-| B | IMISS and not(IUNC) 		|
-| C | not(IMISS) 			|
-| I | Inconditionnelle			|
-| G | IREQ and VALID and ERROR		|
-| F | IREQ and VALID			|
-| H | not(IREQ) or not(VALID)		|
-| N | Inconditionnelle			|
-| K | IREQ and VALID and ERROR		|
-| L | IREQ and VALID and not(ERROR)	|
-| J | not(IREQ) or not(VALID)		|
-| M | Inconditionnelle			|
-| O | Inconditionnelle 			|
+	* A => IMISS and IUNC		   	
+	* B => IMISS and not(IUNC) 		
+	* C => not(IMISS) 			
+	* I => Inconditionnelle			
+	* G => IREQ and VALID and ERROR		
+	* F => IREQ and VALID			
+	* H => not(IREQ) or not(VALID)		
+	* N => Inconditionnelle			
+	* K => IREQ and VALID and ERROR		
+	* L => IREQ and VALID and not(ERROR)	
+	* J => not(IREQ) or not(VALID)		
+	* M => Inconditionnelle			
+	* O => Inconditionnelle 			|
 
 __Question D6 :__
 
@@ -96,22 +95,22 @@ __Question E2 :__
 
 __Question E3 :__
 
-| A | not(WRITE) and DMISS and DUNC
-| B | not(WRITE) and DMISS and not(DUNC)
-| C | not(WRITE) and not(DMISS)
-| I | Inconditionnelle
-| G | DREQ and VALID and ERROR
-| F | DREQ and VALID
-| H | not(DREQ) or not(VALID)
-| N | Inconditionnelle
-| K | DREQ and VALID and ERROR
-| L | DREQ and VALID and not(ERROR)
-| J | not(DREQ) or not(VALID)
-| M | Inconditionnelle
-| O | Inconditionnelle
-| D | not(DMISS) and WRITE
-| E | DMISS and WRITE 
-| P | Inconditionnelle
+	* A => not(WRITE) and DMISS and DUNC
+	* B => not(WRITE) and DMISS and not(DUNC)
+	* C => not(WRITE) and not(DMISS)
+	* I => Inconditionnelle
+	* G => DREQ and VALID and ERROR
+	* F => DREQ and VALID
+	* H => not(DREQ) or not(VALID)
+	* N => Inconditionnelle
+	* K => DREQ and VALID and ERROR
+	* L => DREQ and VALID and not(ERROR)
+	* J => not(DREQ) or not(VALID)
+	* M => Inconditionnelle
+	* O => Inconditionnelle
+	* D => not(DMISS) and WRITE
+	* E => DMISS and WRITE 
+	* P => Inconditionnelle
 
 __Question E4 :__
 
